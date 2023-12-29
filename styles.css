@@ -1,34 +1,28 @@
+* {
+    align-items: center;
+    justify-content: center;
+
+}
 
 .summary {
-    color: rgb(175, 135, 100);
-    background-color: rgb(15, 70, 15);
+    display: flex;
+    color: rgb(194, 93, 5);
+    background-color: rgb(46, 196, 46);
     margin: 50px;
     border: 10px solid gold; 
     padding: 10px;
-    text-align: center;
+}
 
-  }
 .subheadings {
+    display: flex;
     color: white;
     background-color: black;
     margin: 50px;
     border: 10px solid gold;
     padding: 10px;
-    text-align: center;
+}
 
-  }
-.pics {
-    height:auto;
-    width: 400px;
-    display: block;
-    margin-left:  auto;
-    margin-right: auto;
+h1, p, ol, .pics {
+    display: flex;
+    flex-direction: column;
 }
-div.container {
-    text-align: center;
-}
-.lists {
-    display: inline-block;
-    text-align: left;
-}
-h1 {text-align: center;}
