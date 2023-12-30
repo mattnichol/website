@@ -4,15 +4,6 @@
 
 }
 
-.summary {
-    display: flex;
-    color: rgb(194, 93, 5);
-    background-color: rgb(46, 196, 46);
-    margin: 50px;
-    border: 10px solid gold; 
-    padding: 10px;
-}
-
 .subheadings {
     display: flex;
     color: white;
@@ -22,7 +13,25 @@
     padding: 10px;
 }
 
-h1, p, ol, .pics {
+.flex-container {
+    display: flex;
+    background-color: lightblue;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+  
+.flex-container div {
+    background-color: peachpuff;
+    border: 2px solid brown;
+    height: 30px;
+    flex: 1;
+    padding: 10px;
+    margin: 20px;
+}
+
+h1, p, .pics {
     display: flex;
     flex-direction: column;
 }
