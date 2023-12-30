@@ -1,7 +1,6 @@
-* {
-    align-items: center;
-    justify-content: center;
-
+html, body {
+    min-height: 100%;
+    margin: 0;
 }
 
 .subheadings {
@@ -11,27 +10,30 @@
     margin: 50px;
     border: 10px solid gold;
     padding: 10px;
+    justify-content: center;
 }
 
 .flex-container {
     display: flex;
-    background-color: lightblue;
+    background-color: rgb(180, 229, 245);
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    
+    height: 100%;
 }
   
 .flex-container div {
-    background-color: peachpuff;
+    background-color: rgb(21, 228, 228);
     border: 2px solid brown;
-    height: 30px;
+    height: auto;
     flex: 1;
-    padding: 10px;
+    padding: 20px;
     margin: 20px;
 }
 
-h1, p, .pics {
+.pics, h1, p {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
