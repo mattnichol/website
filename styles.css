@@ -1,6 +1,16 @@
 html, body {
     min-height: 100%;
     margin: 0;
+    background-color: #828ce7;
+    
+}
+
+.info {
+    color: white;
+    background-color: black;
+    margin: 50px;
+    border: 10px solid gold;
+    padding: 10px;
 }
 
 .subheadings {
@@ -11,6 +21,8 @@ html, body {
     border: 10px solid gold;
     padding: 10px;
     justify-content: center;
+    align-items: center;
+
 }
 
 .flex-container {
@@ -31,7 +43,7 @@ html, body {
     margin: 20px;
 }
 
-.pics, h1, p {
+.pics, h1 {
     display: flex;
     justify-content: center;
     align-items: center;
